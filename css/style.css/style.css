@@ -1,0 +1,480 @@
+/* Navbar Celular */
+@media (max-width: 576px) {
+  .navbar {
+    background-color: rgba(167, 157, 157, 0.726);
+  }
+  .navbar-brand {
+    color: white !important;
+    font-family: "Over the Rainbow";
+  }
+  .navbar .nav-item a h1 {
+    color: white !important;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+  }
+  .navbar .dropdown-menu {
+    background-color: #d8c3c3;
+  }
+  .navbar .dropdown-menu li :hover {
+    background-color: #99dfa8;
+  }
+  .navbar .dropdown-menu li :hover a {
+    color: white !important;
+    font-family: "Oswald", sans-serif;
+  }
+  .img-thumbnail {
+    display: none;
+  }
+}
+
+/* Navbar Tablet / Desktop */
+@media (min-width: 577px) {
+  .navbar {
+    height: 22rem;
+  }
+  .navbar-brand {
+    font-family: "Over the Rainbow";
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  .navbar-brand h1 {
+    font-size: 1.5rem;
+  }
+  .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .img-thumbnail {
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    height: 15rem;
+    width: 12rem;
+    border: none;
+  }
+  .nav-item :hover {
+    color: #80f093 !important;
+  }
+  .nav-item a {
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+/* Footer */
+.footer {
+  height: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #7a7575;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  opacity: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__contacto {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__contacto__redes {
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__contacto__redes a {
+  text-decoration: none;
+}
+
+.footer__contacto__redes a i {
+  width: 3rem;
+  height: 3rem;
+  color: white;
+}
+
+.footer__contacto__tel h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.footer__contacto__tel p {
+  color: #f1f3f0;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer__navBar {
+  width: 100vw;
+}
+
+.footer__navBar ul {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: solid #2c2929 1px;
+  border-bottom: solid #2c2929 1px;
+}
+
+.footer__navBar ul li a {
+  text-decoration: none;
+  color: #ece4e4;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer__copyright {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+.footer__copyright p {
+  color: #f7e8e8;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7rem;
+}
+
+.footer__copyright p a {
+  text-decoration: none;
+  color: #fdf3f3;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7rem;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* INDEX */
+.indexCont {
+  margin-top: 10rem;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+}
+
+.indexCont__h3 {
+  text-align: center;
+  color: grey;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+
+.separador {
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: #b1ecbe 1px solid;
+  border-bottom: #b1ecbe 1px solid;
+}
+
+.separador h2 {
+  font-family: "Oswald", sans-serif;
+  color: #78848b;
+  font-size: 2.5rem;
+}
+
+.card-title {
+  font-family: "Oswald", sans-serif;
+}
+
+.card-text {
+  font-family: "Oswald", sans-serif;
+  color: grey;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #78848b;
+  border: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+/*Seccion Productos */
+h4 {
+  color: white;
+  background-color: #78848b;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+#list-item-1 {
+  margin-top: 5rem;
+}
+
+.gridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(500px, auto);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.gridContainer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  border: white 1px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.gridContainer__item p {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.548);
+  font-family: "Oswald", sans-serif;
+  color: grey;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.gridContainer__item:hover {
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.tarjetaOffcanvas {
+  font-family: "Oswald", sans-serif;
+  color: grey;
+}
+
+.tarjetaOffcanvas__img {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+}
+
+.tarjetaOffcanvas__texto {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.offcanvas-title {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Seccion Contacto */
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+}
+
+.divCont {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divCont__icono i {
+  color: #78848b;
+}
+
+.divCont__parrafo {
+  font-family: "Oswald", sans-serif;
+  color: grey;
+  font-size: 1rem;
+}
+
+form {
+  border-top: #b1ecbe 1px solid;
+}
+
+form legend {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Oswald", sans-serif;
+  color: grey;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario__label {
+  color: grey;
+  font-family: "Oswald", sans-serif;
+}
+
+.formulario__input {
+  border: #78848b solid;
+}
+
+.formulario__boton {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #78848b;
+  color: white;
+  border: none;
+}
+
+.formulario__check {
+  margin-bottom: 0.5rem;
+}
+
+/* Seccion Envios */
+.accordion-item {
+  font-family: "Oswald", sans-serif;
+  color: grey;
+  font-size: 1rem;
+}
+
+.accordion-button {
+  background-color: #78848b;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.mapa {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #b1ecbe 5px solid;
+}
+
+/* Seccion Medios de pago */
+.flexIcono {
+  margin: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexIcono p {
+  margin-left: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #77747a;
+}
+
+nav {
+  padding: 5px;
+}
+
+.gridContainer {
+  background-color: darkgrey;
+}
+
+#FondoContacto {
+  background-color: #bba1a1;
+}
+
+.Formulario {
+  padding-left: 50px;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=style.css.map */
